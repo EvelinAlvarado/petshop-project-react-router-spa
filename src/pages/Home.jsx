@@ -1,17 +1,20 @@
-const Home = () => {
+export const Home = () => {
   return (
     <main>
       <div className="container">
-        <h2 className="title-page">Pet noticias</h2>
+        <h2 className="title-page">Pet News</h2>
       </div>
       <section className="container flex flex--center">
         <article className="card post">
-          <h2 className="post-card__title">Baño en perros</h2>
-          <p className="post-card__text">La mayoría de los perros prefieren saltarse la hora del baño, pero el baño juega un papel importante en la salud del pelaje y la piel de su perro, ya que ayuda a mantenerla limpia y libre de suciedad y parásitos. Tener los productos adecuados puede ayudarlo a sentirse más cómodo.</p>
+          <h2 className="post-card__title">Dog Wash</h2>
+          <p className="post-card__text">
+            Most dogs prefer to skip bath time, but bathing plays an important
+            role in the health of your dog&apos;s fur and skin, as it helps to
+            keep it clean and free from dirt and parasites. Having the right
+            products can help them feel more comfortable.
+          </p>
         </article>
       </section>
     </main>
-  )
-}
-
-export default Home
+  );
+};

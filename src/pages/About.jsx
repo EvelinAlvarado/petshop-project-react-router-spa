@@ -1,16 +1,15 @@
-const Sobre = () => {
+export const About = () => {
   return (
     <main>
       <div className="container">
-        <h2 className="title-page">Sobre Doguito</h2>
+        <h2 className="title-page">About Doguito</h2>
       </div>
       <section className="container flex flex--center">
         <article className="card">
-          El blog de PetShop fue creado para ayudarte con las preguntas más comunes sobre tu mascota.
+          The PetShop blog was created to help you with the most common
+          questions about your pet.
         </article>
       </section>
     </main>
-  )
-}
-
-export default Sobre
+  );
+};

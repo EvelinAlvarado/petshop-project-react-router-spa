@@ -1,0 +1,72 @@
+{
+  "categories": [
+    {
+      "id": "wellness",
+      "name": "Wellness",
+      "subcategories": ["hygiene", "health"]
+    },
+    {
+      "id": "behavior",
+      "name": "Behavior",
+      "subcategories": ["training", "education"]
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Dog Bathing",
+      "meta_description": "Use the ideal tools to bathe your dog",
+      "body": "Most dogs prefer to skip bath time, but bathing plays an important role in the health of your dog's fur and skin, as it helps to keep it clean and free from dirt and parasites. Having the right products can help them feel more comfortable.",
+      "category": "wellness",
+      "subcategory": "hygiene"
+    },
+    {
+      "id": 2,
+      "title": "Your Puppy Deserves a Hygienic Mat",
+      "meta_description": "The bath your puppy deserves",
+      "body": "Hygienic mats are an innovation in the pet market, perfect for your dog to do its business comfortably without dirtying the house. They are disposable or washable products that ensure your pet's comfort.",
+      "category": "wellness",
+      "subcategory": "hygiene"
+    },
+    {
+      "id": 3,
+      "title": "Flea Season?",
+      "meta_description": "It's necessary to prevent your pets from contracting these parasites",
+      "body": "It's not the bite, but the allergic reaction to it that makes your dog feel itchy. Some pets are hypersensitive to fleas and can have a severe reaction with just one bite. However, all pets will experience discomfort from flea bites. So, as soon as you see repeated scratching, suspect fleas.",
+      "category": "wellness",
+      "subcategory": "health"
+    },
+    {
+      "id": 4,
+      "title": "Is Your Pet Stressed?",
+      "meta_description": "Routine changes can be the major factor.",
+      "body": "Perhaps you're someone who gives extra attention, but when you have to go to the office or engage in an activity, you leave it at home, causing that lack of attention you constantly provide. The ideal is to pamper them to a certain extent. Due to the pandemic, we have been more present in our home, which can accustom your pet to spending more time with you.",
+      "category": "behavior",
+      "subcategory": "education"
+    },
+    {
+      "id": 5,
+      "title": "How to Train Your Dog Not to Be Afraid?",
+      "meta_description": "Socialization is a big factor in this learning.",
+      "body": "You can only teach a dog to stop being afraid by increasing its self-confidence. This means changing the way its mind reacts in certain situations and turning negative associations into positive ones. Doing this requires a lot of patience and a series of controlled exposures to the feared event or object, but far enough away so that the dog doesn't feel anxious.",
+      "category": "behavior",
+      "subcategory": "education"
+    },
+    {
+      "id": 6,
+      "title": "Why Do Cats Purr?",
+      "meta_description": "Purring is a warning sign.",
+      "body": "One thing scientists know for sure is that the part of the cat's brain that controls vocalizations is highly connected to the part of the brain that controls the cat's emotions. So, what the cat is 'saying' is absolutely a reflection of how it feels.",
+      "category": "behavior",
+      "subcategory": "training"
+    },
+    {
+      "id": 7,
+      "title": "How to Train Your Cat?",
+      "meta_description": "Yes, you can train your cat, and it's much easier than you thought.",
+      "body": "You can use training tools for a wide variety of animals; a clicker will only cost a few dollars and will help you provide positive reinforcement when learning to train a cat. (You can also use a regular pen with a click button; the important thing is to have a distinctive noise). Most cat training involves giving your cat a treat it likes after a click to mark the desired behavior.",
+      "category": "behavior",
+      "subcategory": "training"
+    }
+  ]
+}
