@@ -40,11 +40,11 @@
   line-height: 1.3rem;
 }
 
-.post-card--bienestar {
+.post-card--wellness {
   border-color: var(--cor-categoria-bienestar);
 }
 
-.post-card--comportamiento {
+.post-card--behavior {
   border-color: var(--cor-categoria-comportamiento);
 }
 
