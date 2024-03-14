@@ -1,14 +1,16 @@
 import { useState, useEffect } from "react";
-import { fetchData } from "../api/api.js";
-import "../assets/css/components/card.css";
+import { fetchData } from "../api/api";
 import { Link } from "react-router-dom";
+import "../assets/css/components/card.css";
 
-export const ListPosts = ({ url }) => {
+export const ListPosts = ({ endpoint }) => {
   const [posts, setPosts] = useState([]);
+
   useEffect(() => {
-    fetchData(url, setPosts);
+    fetchData(endpoint, setPosts);
     console.log(posts);
-  }, [url]);
+  }, [endpoint]);
+
   return (
     <section className="posts container">
       {posts.map((post) => {

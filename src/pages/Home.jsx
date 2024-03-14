@@ -5,7 +5,7 @@ export const Home = () => {
       <div className="container">
         <h2 className="title-page">Pet News</h2>
       </div>
-      <ListPosts url={"/posts"} />
+      <ListPosts endpoint={"/posts"} />
     </main>
   );
 };
