@@ -14,10 +14,10 @@
 
 .category-list__category--wellness {
   color: var(--contrast-light-color);
-  background-color: var(--cor-categoria-bienestar);
+  background-color: var(--cor-category-wellness);
 }
 
 .category-list__category--behavior {
   color: var(--contrast-light-color);
-  background-color: var(--cor-categoria-comportamiento);
+  background-color: var(--cor-category-behavior);
 }

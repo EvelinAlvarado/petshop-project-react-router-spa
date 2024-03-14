@@ -9,7 +9,7 @@ export const api = axios.create({
 export const fetchData = async (endpoint, updateDataFunction) => {
   // Make a GET request to the API endpoint defined by the given URL
   const response = await api.get(endpoint);
-  console.log(response);
+  // console.log(response);
   // Update the data using the provided setter function with the response data
   updateDataFunction(response.data);
 };

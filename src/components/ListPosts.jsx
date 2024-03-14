@@ -7,12 +7,14 @@ export const ListPosts = ({ endpoint }) => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
+    // Fetch and display posts based on the endpoint
     fetchData(endpoint, setPosts);
     console.log(posts);
   }, [endpoint]);
 
   return (
     <section className="posts container">
+      {/* Display list of posts */}
       {posts.map((post) => {
         const { id, title, meta_description, category } = post;
         return (
