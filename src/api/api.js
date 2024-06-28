@@ -2,7 +2,8 @@ import axios from "axios"; //Library: Promise based HTTP client for the browser 
 
 // Create an Axios instance with a base URL pointing to the local server
 export const api = axios.create({
-  baseURL: "http://localhost:5000",
+  //baseURL: "http://localhost:5000",
+  baseURL: "https://json-server-petshop-project-react-router-spa.vercel.app",
 });
 
 // Function to make a GET request to the specified URL and update data using the provided setter function
