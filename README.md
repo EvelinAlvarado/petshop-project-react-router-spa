@@ -25,11 +25,11 @@ This project is a Pet News Blog developed as part of the React course at Alura L
 ## Screenshots
 
 <div align="center" >
-  <img src="public/MacBook Pro-1716978240990.jpeg" width="80%" />
+  <img src="public/MacBook Pro-1719592293682.jpeg" width="80%" />
   <br/><br/>
-  <img src="public/iPad-1716978330293.jpeg" width="40%" /> 
+  <img src="public/iPad-1719592297624.jpeg" width="40%" /> 
    <br/><br/>
-  <img src="public/iPhone 12 Pro-1716978317349.jpeg" width="20%" /> 
+  <img src="public/iPhone 12 Pro-1719592301338.jpeg" width="20%" /> 
 </div>
 
 ## Additional Information
